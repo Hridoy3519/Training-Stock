@@ -1,0 +1,194 @@
+body{
+    font-family: 'Poppins',sans-serif;
+}
+
+h4{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+h3{
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+h1{
+    font-size: 64px;
+}
+
+h2{
+    color: white;
+    font-weight: bolder;
+}
+/* Header */
+
+/* Video and transparent black cover */
+#myVideo{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+#top-cover{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content h3,h1{
+    color: white;
+    margin-bottom: 20px;
+}
+
+#slogan{
+    margin-bottom: 40px;
+}
+
+.btn-link{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #ED563B;
+    text-transform: uppercase;
+}
+
+/* Navbar */
+.navbar-brand{
+    color: white !important;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.colored-text{
+    color: #ED563B;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.nav-item{
+    margin-left: 20px;
+}
+
+.nav-link{
+    color: white !important;
+    text-transform: uppercase;
+}
+
+.hover-links:hover{
+    color: #ED563B !important;
+}
+
+.signup-link{
+    background-color: #ED563B;
+}
+
+.signup-link:hover{
+    color: black !important;
+}
+
+/* Choose our Programme */
+
+#program,#classes{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.program-description{
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 0px;
+    line-height: 25px;
+}
+
+.discover{
+    text-decoration: none;
+    color: #ED563B;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+/* Become a Member */
+
+#member{
+    background-image: url("images/cta-bg.jpg");
+    background-size: cover;
+    height: 60vh;
+}
+
+#member-description{
+    color: white;
+    margin: 30px 0;
+}
+
+/* Start Training */
+
+#training-des{
+    margin-bottom: 30px;
+}
+
+.box{
+    height: 100px;
+    border-radius: 10px;
+}
+
+.schedule-box{
+    height: 80px;
+    border-radius: 10px;
+    background-color: #ED563B;
+    color: white;
+}
+
+.schedule{
+    font-weight: 400;
+}
+
+/* Trainers */
+
+.trainer-type{
+    font-size: 14px;
+    color: #ED563B;
+}
+
+.card{
+    border: none;
+}
+
+.card-title{
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.card-text{
+    font-size: 14px;
+    color: gray;
+}
+
+.card-footer{
+    border: none;
+    background-color: white;
+}
+
+.fab{
+    margin: 0 5px;
+}
+
+.fab:hover{
+    color: #ED563B;
+}
+
+/* Footer */
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+}
